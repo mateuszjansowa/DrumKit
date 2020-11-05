@@ -105,23 +105,6 @@ text {
   }
 }
 
-.speaker {
-  position: absolute;
-}
-
-.speaker__left {
-  left: 0;
-}
-
-.speaker__right {
-  right: 0;
-}
-
-.speaker__item {
-  width: 20vw;
-  height: 100vh;
-}
-
 .header {
   align-items: center;
   display: flex;
