@@ -1,0 +1,75 @@
+svg {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+text {
+    pointer-events: none;
+}
+
+.drum {
+    width: 50vw;
+    max-height: 80vh;
+    position: absolute;
+    cursor: pointer;
+}
+
+.st0 {
+    fill: #453e3e;
+}
+
+.st1 {
+    fill: #000000;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.st2 {
+    fill: #787373;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.st3 {
+    fill: #ffcc67;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.st4 {
+    fill: #e7e3db;
+    stroke: #000000;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+
+.st5 {
+    fill: #1b1919;
+}
+
+.st6 {
+    fill: none;
+}
+
+.st7 {
+
+    fill: whitesmoke;
+    font-family: 'ArialRoundedMTBold';
+}
+
+.st8 {
+    font-size: 21px;
+}
+
+.st9 {
+    font-size: 31px;
+}
+
+.st10 {
+    font-size: 34px;
+}

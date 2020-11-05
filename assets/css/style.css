@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+text {
+  pointer-events: none;
+}
+
+.drum {
+  width: 50vw;
+  max-height: 80vh;
+  position: absolute;
+  cursor: pointer;
+}
+
+.st0 {
+  fill: #453e3e;
+}
+
+.st1 {
+  fill: #000000;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+.st2 {
+  fill: #787373;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+.st3 {
+  fill: #ffcc67;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+.st4 {
+  fill: #e7e3db;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.st5 {
+  fill: #1b1919;
+}
+
+.st6 {
+  fill: none;
+}
+
+.st7 {
+  fill: whitesmoke;
+  font-family: 'ArialRoundedMTBold';
+}
+
+.st8 {
+  font-size: 21px;
+}
+
+.st9 {
+  font-size: 31px;
+}
+
+.st10 {
+  font-size: 34px;
+}
+
+.active {
+  animation: shake 0.12s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(3px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-5px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+.speaker {
+  position: absolute;
+}
+
+.speaker__left {
+  left: 0;
+}
+
+.speaker__right {
+  right: 0;
+}
+
+.speaker__item {
+  width: 20vw;
+  height: 100vh;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  height: 10vh;
+  width: 100%;
+}
+
+.header__github-logo {
+  color: black;
+  font-size: 60px;
+  padding: 10px;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #BCC0C4;
+}
+/*# sourceMappingURL=style.css.map */

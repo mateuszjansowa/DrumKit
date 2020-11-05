@@ -1,0 +1,13 @@
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    width: 100%;
+
+    &__github-logo {
+        color: black;
+        font-size: 60px;
+        padding: 10px;
+    }
+}
